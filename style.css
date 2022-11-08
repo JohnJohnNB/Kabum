@@ -55,3 +55,7 @@
 .tresr {
   margin-right: 30px;
 }
+
+.tresr:hover {
+  cursor: pointer;
+}
