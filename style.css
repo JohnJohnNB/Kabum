@@ -1,31 +1,57 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #topo {
-    background: rgb(28, 129, 167);
-    width: 100%;
-    height: 112px;
+  background: #0060b1;
+  width: 100%;
+  height: 112px;
 }
 
 #container-barra-pesquisa {
-    margin: 0 200px;
-    height: 100%;
+  margin: 0 200px;
+  height: 100%;
 }
 
 #barra-pesquisa {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    border: 1px solid red;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border: 1px solid red;
 }
 
 .kabum-logo {
-    width: 160px;
+  width: 160px;
 }
 
 .kabum-logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
+.barrapsq {
+  margin-left: 20px;
+  padding-left: 20px;
+  width: 512px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+}
+
+.botaopsg {
+  position: relative;
+  margin-right: 100px;
+  border: 1px solid red;
+  /* border: none; */
+  background: none;
+}
+
+.botaopsg:hover {
+  cursor: pointer;
+}
+
+.tresr {
+  margin-right: 30px;
+}
