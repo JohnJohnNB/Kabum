@@ -9,6 +9,23 @@
     height: 112px;
 }
 
-.kabum-logo {
-    width: 170px;
+#container-barra-pesquisa {
+    margin: 0 200px;
+    height: 100%;
 }
+
+#barra-pesquisa {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.kabum-logo {
+    width: 160px;
+}
+
+.kabum-logo:hover {
+    cursor: pointer;
+}
+
