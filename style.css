@@ -1,8 +1,22 @@
+@font-face {
+  font-family:'Poppins';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJM.woff) format('woff')
+}
+
 * {
   padding: 0;
   margin: 0;
   font-family: Poppins, sans-serif !important;
 }
+
+body {
+  font-family: 'Poppins';
+}
+
+/* BARRA DE PESQUISA */
 
 #topo {
   background: #0060b1;
@@ -61,28 +75,29 @@
   cursor: pointer;
 }
 
-figure {
-  border: 3px solid rgb(52, 123, 190);
-  padding: 2px;
-  display: flex;
-  align-items: center;
-  border-radius: 50px;
-}
+/* BARRA DE NAVEGAÇÃO (LINKS) */
 
-.finalnav {
-  margin-left: 100px;
-  border: 1px solid red;
-}
-
-.txtlogin {
-  margin: 5px;
-  font-size: 13px;
-    color: rgba(255, 255, 255, 0.8);
-    
-}
-
-nav a {
+a {
   text-decoration: none;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.8);
 }
+
+#container-barra-navegacao {
+  height: 32px;
+  background: #ff771d;
+}
+
+#barra-navegacao > ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+#barra-navegacao > ul > li{
+  display: block;
+  height: 32px;
+}
+
+#barra-navegacao > ul > li:hover{
+  background: #FF6500;
+}
+
+
