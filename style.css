@@ -9,11 +9,11 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Poppins, sans-serif !important;
 }
 
 body {
   font-family: 'Poppins';
+  background: black;
 }
 
 /* BARRA DE PESQUISA */
@@ -21,12 +21,13 @@ body {
 #topo {
   background: #0060b1;
   width: 100%;
-  height: 112px;
 }
 
 #container-barra-pesquisa {
   margin: 0 200px;
-  height: 100%;
+  height: 112px;
+  /* min-width: 1280px; */
+
 }
 
 #barra-pesquisa {
@@ -100,31 +101,3 @@ nav a {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
 }
-
-/* BARRA DE NAVEGAÇÃO (LINKS) */
-
-a {
-  text-decoration: none;
-}
-
-#container-barra-navegacao {
-  height: 32px;
-  background: #ff771d;
-}
-
-#barra-navegacao > ul {
-  display: inline-flex;
-  list-style-type: none;
-}
-
-#barra-navegacao > ul > li{
-  display: block;
-  padding: 0 20px;
-  height: 32px;
-}
-
-#barra-navegacao > ul > li:hover{
-  background: #FF6500;
-}
-
-
