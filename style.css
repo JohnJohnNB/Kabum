@@ -75,6 +75,32 @@ body {
   cursor: pointer;
 }
 
+figure {
+  border: 3px solid rgb(52, 123, 190);
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.finalnav {
+  margin-left: 100px;
+  border: 1px solid red;
+}
+
+.txtlogin {
+  margin: 5px;
+  font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 /* BARRA DE NAVEGAÇÃO (LINKS) */
 
 a {
@@ -93,6 +119,7 @@ a {
 
 #barra-navegacao > ul > li{
   display: block;
+  padding: 0 20px;
   height: 32px;
 }
 
