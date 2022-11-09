@@ -1,7 +1,21 @@
+@font-face {
+  font-family:'Poppins';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJM.woff) format('woff')
+}
+
 * {
   padding: 0;
   margin: 0;
 }
+
+body {
+  font-family: 'Poppins';
+}
+
+/* BARRA DE PESQUISA */
 
 #topo {
   background: #0060b1;
@@ -59,3 +73,30 @@
 .tresr:hover {
   cursor: pointer;
 }
+
+/* BARRA DE NAVEGAÇÃO (LINKS) */
+
+a {
+  text-decoration: none;
+}
+
+#container-barra-navegacao {
+  height: 32px;
+  background: #ff771d;
+}
+
+#barra-navegacao > ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+#barra-navegacao > ul > li{
+  display: block;
+  height: 32px;
+}
+
+#barra-navegacao > ul > li:hover{
+  background: #FF6500;
+}
+
+
