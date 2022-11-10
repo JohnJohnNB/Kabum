@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .kabum-logo {
@@ -59,8 +59,8 @@ body {
 .botaopsg {
   position: relative;
   margin-right: 100px;
-  border: 1px solid red;
-  /* border: none; */
+  /* border: 1px solid red; */
+  border: none;
   background: none;
 }
 
@@ -76,6 +76,16 @@ body {
   cursor: pointer;
 }
 
+.tresr{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.tresr:hover{
+  -webkit-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
 figure {
   border: 3px solid rgb(52, 123, 190);
   padding: 2px;
@@ -86,7 +96,7 @@ figure {
 
 .finalnav {
   margin-left: 100px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .txtlogin {
@@ -96,8 +106,13 @@ figure {
 
 }
 
-nav a {
+.txtlogin a {
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.txtlogin a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
