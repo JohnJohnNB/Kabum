@@ -84,7 +84,6 @@ body {
   height: 1.5rem;
   width: 0.625rem;
   background: rgb(255, 255, 255);
-
 }
 
 .botaopsg:hover {
@@ -137,4 +136,9 @@ figure {
 .txtlogin a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.boneco-ajuda {
+  margin-left: 200px;
+  /* border: 1px solid red; */
 }
