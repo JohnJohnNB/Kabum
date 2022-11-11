@@ -21,7 +21,7 @@ body {
 
 #topo {
   background: #0060b1;
-  width: 100%;
+  min-width: none;
 }
 
 #container-barra-pesquisa {
