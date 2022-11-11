@@ -1,9 +1,10 @@
 @font-face {
-  font-family:'Poppins';
-  font-style:normal;
-  font-weight:400;
-  font-display:swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJM.woff) format('woff')
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJM.woff)
+    format("woff");
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background: black;
 }
 
@@ -20,14 +21,13 @@ body {
 
 #topo {
   background: #0060b1;
-  width: 100%;
+  min-width: none;
 }
 
 #container-barra-pesquisa {
   margin: 0 200px;
   height: 112px;
   /* min-width: 1280px; */
-
 }
 
 #barra-pesquisa {
@@ -45,23 +45,46 @@ body {
   cursor: pointer;
 }
 
+.container-pesquisa {
+  padding-right: 30px;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
 .barrapsq {
   margin-left: 20px;
   padding-left: 20px;
-  width: 512px;
+  width: 500px;
   height: 36px;
-  border-radius: 5px;
+  border-radius: 7px;
   border: none;
   text-align: left;
   font-size: 16px;
 }
 
 .botaopsg {
-  position: relative;
-  margin-right: 100px;
+  left: 526px;
+  /* justify-content: flex-end; */
+  position: absolute;
   /* border: 1px solid red; */
   border: none;
   background: none;
+  z-index: 1;
+}
+
+.botaopsg::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 0.375rem;
+  height: 1.5rem;
+  width: 0.625rem;
+  background: rgb(255, 255, 255);
+
 }
 
 .botaopsg:hover {
@@ -76,12 +99,12 @@ body {
   cursor: pointer;
 }
 
-.tresr{
+.tresr {
   transition: all 0.5s;
   cursor: pointer;
 }
 
-.tresr:hover{
+.tresr:hover {
   -webkit-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
@@ -95,15 +118,14 @@ figure {
 }
 
 .finalnav {
-  margin-left: 100px;
+  margin-left: 250px;
   /* border: 1px solid red; */
 }
 
 .txtlogin {
   margin: 5px;
   font-size: 13px;
-    color: rgba(255, 255, 255, 0.8);
-
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .txtlogin a {
