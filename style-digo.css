@@ -1,0 +1,28 @@
+.sale {
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 0.75rem;
+  color: rgb(127, 133, 141);
+  text-decoration: line-through;
+}
+
+.price {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 700;
+  height: 1.25rem;
+  color: rgb(255, 101, 0);
+}
+
+.link {
+  color: #000;
+}
