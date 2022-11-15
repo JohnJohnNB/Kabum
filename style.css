@@ -99,7 +99,7 @@ body {
 }
 
 .tresr {
-  transition: all 0.5s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
@@ -141,4 +141,12 @@ figure {
 .boneco-ajuda {
   margin-left: 200px;
   /* border: 1px solid red; */
+}
+
+.favoritos {
+  margin-left: 20px;
+}
+
+.carrinho {
+  margin-left: 20px;
 }
