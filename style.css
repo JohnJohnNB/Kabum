@@ -19,57 +19,86 @@ body {
 
 /* BARRA DE PESQUISA */
 
-#topo {
-  background: #0060b1;
-  min-width: none;
-}
-
-#container-barra-pesquisa {
-  margin: 0 200px;
-  height: 112px;
-  /* min-width: 1280px; */
-}
-
-#barra-pesquisa {
+.navbar {
   display: flex;
+  justify-content: center;
+  gap: 20px;
   align-items: center;
-  height: 100%;
+  background: #0060b1;
+  height: 112px;
+  width: 100%;
+  min-width: 300px;
   /* border: 1px solid red; */
+  z-index: 999;
 }
 
-.kabum-logo {
-  width: 160px;
-}
-
-.kabum-logo:hover {
+.botao-lateral {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  align-items: center;
+  width: 100%;
+  max-width: 50px;
+  min-width: 10px;
+  /* border: 1px solid red; */
+  transition: all 0.3s;
   cursor: pointer;
 }
 
-.container-pesquisa {
-  padding-right: 30px;
-  justify-content: flex-end;
-  /* border: 1px solid red; */
+.botao-lateral:hover {
+  -webkit-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+.kbum-logo {
   display: flex;
-  position: relative;
   align-items: center;
+  gap: 2%;
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 1600px;
+  min-width: 20px;
+}
+
+.container-pesquisa {
+  width: 100%;
+  max-width: 600px;
+  min-width: 20px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
 }
 
 .barrapsq {
-  margin-left: 20px;
+  position: relative;
   padding-left: 20px;
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
+  min-width: 20px;
   height: 36px;
   border-radius: 7px;
   border: none;
   text-align: left;
   font-size: 16px;
+  
+}
+
+.conteiner-botao {
+  display: flex;
+  justify-content: flex-start;
+  /* position: absolute; */
+  width: 100%;
+  max-width: 100px;
+  /* border: 1px solid bisque; */
 }
 
 .botaopsg {
-  left: 526px;
-  /* justify-content: flex-end; */
-  position: absolute;
-  /* border: 1px solid red; */
+  position: relative;
+  width: 100%;
+  max-width: 0px;
+  min-width: 20px;
+  /* position: absolute; */
+  border: 1px solid red;
   border: none;
   background: none;
   z-index: 1;
@@ -79,34 +108,18 @@ body {
   z-index: -1;
   content: "";
   position: absolute;
-  left: 12px;
-  top: 0.375rem;
-  height: 1.5rem;
-  width: 0.625rem;
+  left: -11px;
+  top: 0.445rem;
+  height: 2.22rem;
+  width: 2rem;
   background: rgb(255, 255, 255);
+  border-radius: 5px;
 }
 
 .botaopsg:hover {
   cursor: pointer;
 }
 
-.tresr {
-  margin-right: 30px;
-}
-
-.tresr:hover {
-  cursor: pointer;
-}
-
-.tresr {
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.tresr:hover {
-  -webkit-transform: rotateZ(360deg);
-  transform: rotateZ(360deg);
-}
 
 figure {
   border: 3px solid rgb(52, 123, 190);
