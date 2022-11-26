@@ -54,6 +54,30 @@ body {
   /* border: 1px solid red; */
 }
 
+.container-botao img {
+  width: 100%;
+  max-width: 20px;
+  min-width: 15px;
+}
+
+.container-botao button {
+  position: relative;
+  background: none;
+  border: none;
+  /* left: -2rem; */
+  /* border: 1px solid red; */
+}
+
+.container-botao {
+  position: relative;
+  width: 100%;
+  left: -1.7rem;
+  max-width: 3vw;
+  min-width: 2.5vw;
+  display: grid;
+  grid-column: 3;
+}
+
 .barra-mini {
   display: grid;
   width: 50vw;
@@ -62,14 +86,20 @@ body {
   border: none;
 }
 
-.carrinho-mini a {
-display: grid;
-justify-content: center;
-/* border: 1px solid red; */
+.container-carrinho-mini img {
+  width: 100%;
+  max-width: 20px;
+  min-width: 10px;
+}
+
+.container-carrinho-mini {
+  display: grid;
+  justify-self: center;
+  grid-column: 3;
 }
 
 .botao-lateral-mini {
-  width: 50px;
+  width: 40px;
   display: grid;
   grid-column: 4;
   justify-items: center;
@@ -104,4 +134,3 @@ justify-content: center;
     display: none;
   }
 }
-
