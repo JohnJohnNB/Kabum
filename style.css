@@ -146,12 +146,15 @@ body {
 }
 
 .container-itens-nav-desk {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: grid;
   gap: 15px;
   grid-template-columns: 1fr 1fr 2fr 0.3fr 1fr 0.3fr 0.3fr 0.3fr;
   align-items: center;
+  justify-self: center;
   height: 92px;
+  width: 100%;
+  max-width: 95vw;
 }
 
 @media (max-width: 900px) {
