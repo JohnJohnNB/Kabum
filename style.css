@@ -130,7 +130,162 @@ body {
   .kbum-mini-logo {
     display: none;
   } */
-  .container-itens-nav {
+  .container-barra-nav {
     display: none;
   }
 }
+
+.container-barra-nav-desk {
+  display: grid;
+  align-items: center;
+  height: 122px;
+  background: #0060b1;
+  /* border: 1px solid red; */
+  width: 100%;
+  min-width: 900px;
+}
+
+.container-itens-nav-desk {
+  /* border: 1px solid red; */
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 2fr 0.3fr 1fr 0.3fr 0.3fr 0.3fr;
+  align-items: center;
+  height: 92px;
+}
+
+@media (max-width: 900px) {
+  .container-barra-nav-desk {
+    display: none;
+  }
+}
+
+.barra-lateral-desk {
+  display: grid;
+  justify-items: center;
+  justify-self: end;
+  width: 100%;
+  max-width: 50px;
+  min-width: 10px;
+  /* border: 1px solid red; */
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.barra-lateral-desk img {
+  width: 100%;
+  max-width: 30px;
+}
+
+.barra-lateral-desk:hover {
+  -webkit-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+.kabum-logo-desk a {
+  display: grid;
+  justify-items: center;
+  justify-self: start;
+  grid-column: 2;
+  width: 100%;
+  max-width: 200px;
+  /* border: 1px solid red; */
+}
+
+.barra-pesquisa {
+  position: relative;
+  display: grid;
+  grid-column: 3;
+  justify-self: start;
+  width: 100%;
+  height: 2.3rem;
+  max-width: 39.9vw;
+  /* border: 1px solid red; */
+}
+
+.container-botao-desk img {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 80px;
+  min-width: 70px;
+}
+
+.container-botao-desk button {
+  position: relative;
+  background: none;
+  border: none;
+  /* left: -2rem; */
+  /* border: 1px solid red; */
+  cursor: pointer;
+}
+
+.barra {
+  position: relative;
+  display: grid;
+  width: 35vw;
+  height: 2.3rem;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+.container-botao-desk {
+  position: relative;
+  width: 100%;
+  top: -15px;
+  left: -26px;
+  max-width: 200px;
+  min-width: 55px;
+  display: grid;
+  grid-column: 3;
+  /* border: 1px solid red; */
+}
+
+.figura-boneco {
+  display: grid;
+  grid-column: 4;
+  border-radius: 100%;
+  justify-self: end;
+  justify-items: center;
+  padding: 2px;
+  border: 4px solid rgba(196, 196, 196, 0.3);
+  width: 100%;
+  max-width: 30px;
+}
+
+.texto-login {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid red;  */
+}
+
+.links-login {
+  /* font-size: 13px; */
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.boneco-help img {
+  width: 100%;
+  max-width: 26px;
+}
+
+.boneco-help {
+  display: grid;
+  gap: 2px;
+}
+
+.coracao img {
+  width: 100%;
+  max-width: 26px;
+}
+
+.carrinho-desk img {
+  width: 100%;
+  max-width: 26px;
+}
+
