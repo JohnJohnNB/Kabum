@@ -136,9 +136,22 @@ body {
   .container-barra-nav {
     display: none;
   }
+  .img-promo-2 img {
+    display: none;
+  }
 }
 .img-promo img {
   width: 100%;
+}
+
+.img-promo-2 img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .img-promo-2 img {
+    display: none;
+  }
 }
 
 /* --------VERSAO DE DESKTOP----------- */
@@ -167,6 +180,9 @@ body {
 
 @media (max-width: 900px) {
   .container-barra-nav-desk {
+    display: none;
+  }
+  .img-promo-desk img {
     display: none;
   }
 }
@@ -299,3 +315,36 @@ body {
   width: 100%;
   max-width: 26px;
 }
+
+.img-promo-desk img {
+  width: 100%;
+}
+
+.container-links {
+  display: grid;
+  background: rgb(255, 101, 0);
+  width: 100%;
+  min-width: 300px;
+  height: 40px;
+}
+
+.container-itens-links {
+  
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(9, 0.2fr);
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  max-width: 80vw;
+  border: 1px solid red;
+}
+
+.container-itens-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
